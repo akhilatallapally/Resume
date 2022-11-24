@@ -22,26 +22,27 @@ function Header() {
       <div className={styles.right}>
         <img src={resumeSvg} alt="Resume" />
       </div>
-      <div className={styles.down}>
-     <p>
+        <div className="new">
 
-     <a href="https://wpm-resume-builder.herokuapp.com">
-        <button>
-        <img src={resmSvg1} alt="Resume" />
-        </button>
-    </a>
-    <a href="https://wpm-resume-builder.herokuapp.com">
-        <button>
-        <img src={resmSvg2} alt="Resume" />
-        </button>
-    </a>
-    <a href="https://wpm-resume-builder.herokuapp.com">
-        <button>
-        <img src={resmSvg3} alt="Resume" />
-        </button>
-    </a>
-      </p>
+      <div>
+             <button>
+             <a href="https://wpm-resume-builder.herokuapp.com"><img className="image" src={resmSvg1} alt="Resume" /></a>
+             </button>
       </div>
+  
+      <div>
+            <button>
+            <a href="https://wpm-resume-builder.herokuapp.com"><img className="image" src={resmSvg2} alt="Resume"/></a>
+            </button>
+      </div>
+
+      <div>
+            <button>
+            <a href="https://wpm-resume-builder.herokuapp.com"><img className="image" src={resmSvg3} alt="Resume" /></a>
+            </button>
+      </div>
+
+        </div>
     </div>
   );
 }
